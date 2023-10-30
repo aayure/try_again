@@ -1,0 +1,245 @@
+-- Loading resources from /Users/aayure/.duckdbrc
+'column_name','column_type','null','key','default','extra'
+'tripduration','BIGINT','YES',NULL,NULL,NULL
+'starttime','TIMESTAMP','YES',NULL,NULL,NULL
+'stoptime','TIMESTAMP','YES',NULL,NULL,NULL
+'start station id','BIGINT','YES',NULL,NULL,NULL
+'start station name','VARCHAR','YES',NULL,NULL,NULL
+'start station latitude','DOUBLE','YES',NULL,NULL,NULL
+'start station longitude','DOUBLE','YES',NULL,NULL,NULL
+'end station id','BIGINT','YES',NULL,NULL,NULL
+'end station name','VARCHAR','YES',NULL,NULL,NULL
+'end station latitude','DOUBLE','YES',NULL,NULL,NULL
+'end station longitude','DOUBLE','YES',NULL,NULL,NULL
+'bikeid','BIGINT','YES',NULL,NULL,NULL
+'usertype','VARCHAR','YES',NULL,NULL,NULL
+'birth year','BIGINT','YES',NULL,NULL,NULL
+'gender','BIGINT','YES',NULL,NULL,NULL
+'ride_id','VARCHAR','YES',NULL,NULL,NULL
+'rideable_type','VARCHAR','YES',NULL,NULL,NULL
+'started_at','VARCHAR','YES',NULL,NULL,NULL
+'ended_at','VARCHAR','YES',NULL,NULL,NULL
+'start_station_name','VARCHAR','YES',NULL,NULL,NULL
+'start_station_id','VARCHAR','YES',NULL,NULL,NULL
+'end_station_name','VARCHAR','YES',NULL,NULL,NULL
+'end_station_id','VARCHAR','YES',NULL,NULL,NULL
+'start_lat','VARCHAR','YES',NULL,NULL,NULL
+'start_lng','VARCHAR','YES',NULL,NULL,NULL
+'end_lat','VARCHAR','YES',NULL,NULL,NULL
+'end_lng','VARCHAR','YES',NULL,NULL,NULL
+'member_casual','VARCHAR','YES',NULL,NULL,NULL
+'filename','VARCHAR','YES',NULL,NULL,NULL
+'column_name','column_type','null','key','default','extra'
+'STATION','VARCHAR','YES',NULL,NULL,NULL
+'NAME','VARCHAR','YES',NULL,NULL,NULL
+'DATE','DATE','YES',NULL,NULL,NULL
+'AWND','DOUBLE','YES',NULL,NULL,NULL
+'PRCP','DOUBLE','YES',NULL,NULL,NULL
+'SNOW','DOUBLE','YES',NULL,NULL,NULL
+'SNWD','DOUBLE','YES',NULL,NULL,NULL
+'TMAX','BIGINT','YES',NULL,NULL,NULL
+'TMIN','BIGINT','YES',NULL,NULL,NULL
+'filename','VARCHAR','YES',NULL,NULL,NULL
+'column_name','column_type','null','key','default','extra'
+'column0','VARCHAR','YES',NULL,NULL,NULL
+'column1','VARCHAR','YES',NULL,NULL,NULL
+'column2','VARCHAR','YES',NULL,NULL,NULL
+'column3','VARCHAR','YES',NULL,NULL,NULL
+'filename','VARCHAR','YES',NULL,NULL,NULL
+'column_name','column_type','null','key','default','extra'
+'hvfhs_license_num','VARCHAR','YES',NULL,NULL,NULL
+'dispatching_base_num','VARCHAR','YES',NULL,NULL,NULL
+'originating_base_num','VARCHAR','YES',NULL,NULL,NULL
+'request_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'on_scene_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'pickup_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'dropoff_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'PULocationID','BIGINT','YES',NULL,NULL,NULL
+'DOLocationID','BIGINT','YES',NULL,NULL,NULL
+'trip_miles','DOUBLE','YES',NULL,NULL,NULL
+'trip_time','BIGINT','YES',NULL,NULL,NULL
+'base_passenger_fare','DOUBLE','YES',NULL,NULL,NULL
+'tolls','DOUBLE','YES',NULL,NULL,NULL
+'bcf','DOUBLE','YES',NULL,NULL,NULL
+'sales_tax','DOUBLE','YES',NULL,NULL,NULL
+'congestion_surcharge','DOUBLE','YES',NULL,NULL,NULL
+'airport_fee','DOUBLE','YES',NULL,NULL,NULL
+'tips','DOUBLE','YES',NULL,NULL,NULL
+'driver_pay','DOUBLE','YES',NULL,NULL,NULL
+'shared_request_flag','VARCHAR','YES',NULL,NULL,NULL
+'shared_match_flag','VARCHAR','YES',NULL,NULL,NULL
+'access_a_ride_flag','VARCHAR','YES',NULL,NULL,NULL
+'wav_request_flag','VARCHAR','YES',NULL,NULL,NULL
+'wav_match_flag','VARCHAR','YES',NULL,NULL,NULL
+'filename','VARCHAR','YES',NULL,NULL,NULL
+'column_name','column_type','null','key','default','extra'
+'VendorID','BIGINT','YES',NULL,NULL,NULL
+'lpep_pickup_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'lpep_dropoff_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'store_and_fwd_flag','VARCHAR','YES',NULL,NULL,NULL
+'RatecodeID','DOUBLE','YES',NULL,NULL,NULL
+'PULocationID','BIGINT','YES',NULL,NULL,NULL
+'DOLocationID','BIGINT','YES',NULL,NULL,NULL
+'passenger_count','DOUBLE','YES',NULL,NULL,NULL
+'trip_distance','DOUBLE','YES',NULL,NULL,NULL
+'fare_amount','DOUBLE','YES',NULL,NULL,NULL
+'extra','DOUBLE','YES',NULL,NULL,NULL
+'mta_tax','DOUBLE','YES',NULL,NULL,NULL
+'tip_amount','DOUBLE','YES',NULL,NULL,NULL
+'tolls_amount','DOUBLE','YES',NULL,NULL,NULL
+'ehail_fee','INTEGER','YES',NULL,NULL,NULL
+'improvement_surcharge','DOUBLE','YES',NULL,NULL,NULL
+'total_amount','DOUBLE','YES',NULL,NULL,NULL
+'payment_type','DOUBLE','YES',NULL,NULL,NULL
+'trip_type','DOUBLE','YES',NULL,NULL,NULL
+'congestion_surcharge','DOUBLE','YES',NULL,NULL,NULL
+'filename','VARCHAR','YES',NULL,NULL,NULL
+'column_name','column_type','null','key','default','extra'
+'VendorID','BIGINT','YES',NULL,NULL,NULL
+'tpep_pickup_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'tpep_dropoff_datetime','TIMESTAMP','YES',NULL,NULL,NULL
+'passenger_count','DOUBLE','YES',NULL,NULL,NULL
+'trip_distance','DOUBLE','YES',NULL,NULL,NULL
+'RatecodeID','DOUBLE','YES',NULL,NULL,NULL
+'store_and_fwd_flag','VARCHAR','YES',NULL,NULL,NULL
+'PULocationID','BIGINT','YES',NULL,NULL,NULL
+'DOLocationID','BIGINT','YES',NULL,NULL,NULL
+'payment_type','BIGINT','YES',NULL,NULL,NULL
+'fare_amount','DOUBLE','YES',NULL,NULL,NULL
+'extra','DOUBLE','YES',NULL,NULL,NULL
+'mta_tax','DOUBLE','YES',NULL,NULL,NULL
+'tip_amount','DOUBLE','YES',NULL,NULL,NULL
+'tolls_amount','DOUBLE','YES',NULL,NULL,NULL
+'improvement_surcharge','DOUBLE','YES',NULL,NULL,NULL
+'total_amount','DOUBLE','YES',NULL,NULL,NULL
+'congestion_surcharge','DOUBLE','YES',NULL,NULL,NULL
+'airport_fee','DOUBLE','YES',NULL,NULL,NULL
+'filename','VARCHAR','YES',NULL,NULL,NULL
+'''Table Name: bike_data'''
+'Table Name: bike_data'
+'column_name'
+'Column Name: tripduration'
+'Column Name: starttime'
+'Column Name: stoptime'
+'Column Name: start station id'
+'Column Name: start station name'
+'Column Name: start station latitude'
+'Column Name: start station longitude'
+'Column Name: end station id'
+'Column Name: end station name'
+'Column Name: end station latitude'
+'Column Name: end station longitude'
+'Column Name: bikeid'
+'Column Name: usertype'
+'Column Name: birth year'
+'Column Name: gender'
+'Column Name: ride_id'
+'Column Name: rideable_type'
+'Column Name: started_at'
+'Column Name: ended_at'
+'Column Name: start_station_name'
+'Column Name: start_station_id'
+'Column Name: end_station_name'
+'Column Name: end_station_id'
+'Column Name: start_lat'
+'Column Name: start_lng'
+'Column Name: end_lat'
+'Column Name: end_lng'
+'Column Name: member_casual'
+'Column Name: filename'
+'''Table Name: central_park_weather'''
+'Table Name: central_park_weather'
+'column_name'
+'Column Name: STATION'
+'Column Name: NAME'
+'Column Name: DATE'
+'Column Name: AWND'
+'Column Name: PRCP'
+'Column Name: SNOW'
+'Column Name: SNWD'
+'Column Name: TMAX'
+'Column Name: TMIN'
+'Column Name: filename'
+'''Table Name: fhv_bases'''
+'Table Name: fhv_bases'
+'column_name'
+'Column Name: column0'
+'Column Name: column1'
+'Column Name: column2'
+'Column Name: column3'
+'Column Name: filename'
+'''Table Name: fhvhv_tripdata'''
+'Table Name: fhvhv_tripdata'
+'column_name'
+'Column Name: hvfhs_license_num'
+'Column Name: dispatching_base_num'
+'Column Name: originating_base_num'
+'Column Name: request_datetime'
+'Column Name: on_scene_datetime'
+'Column Name: pickup_datetime'
+'Column Name: dropoff_datetime'
+'Column Name: PULocationID'
+'Column Name: DOLocationID'
+'Column Name: trip_miles'
+'Column Name: trip_time'
+'Column Name: base_passenger_fare'
+'Column Name: tolls'
+'Column Name: bcf'
+'Column Name: sales_tax'
+'Column Name: congestion_surcharge'
+'Column Name: airport_fee'
+'Column Name: tips'
+'Column Name: driver_pay'
+'Column Name: shared_request_flag'
+'Column Name: shared_match_flag'
+'Column Name: access_a_ride_flag'
+'Column Name: wav_request_flag'
+'Column Name: wav_match_flag'
+'Column Name: filename'
+'''Table Name: green_tripdata'''
+'Table Name: green_tripdata'
+'column_name'
+'Column Name: VendorID'
+'Column Name: lpep_pickup_datetime'
+'Column Name: lpep_dropoff_datetime'
+'Column Name: store_and_fwd_flag'
+'Column Name: RatecodeID'
+'Column Name: PULocationID'
+'Column Name: DOLocationID'
+'Column Name: passenger_count'
+'Column Name: trip_distance'
+'Column Name: fare_amount'
+'Column Name: extra'
+'Column Name: mta_tax'
+'Column Name: tip_amount'
+'Column Name: tolls_amount'
+'Column Name: ehail_fee'
+'Column Name: improvement_surcharge'
+'Column Name: total_amount'
+'Column Name: payment_type'
+'Column Name: trip_type'
+'Column Name: congestion_surcharge'
+'Column Name: filename'
+'''Table Name: yellow_tripdata'''
+'Table Name: yellow_tripdata'
+'column_name'
+'Column Name: VendorID'
+'Column Name: tpep_pickup_datetime'
+'Column Name: tpep_dropoff_datetime'
+'Column Name: passenger_count'
+'Column Name: trip_distance'
+'Column Name: RatecodeID'
+'Column Name: store_and_fwd_flag'
+'Column Name: PULocationID'
+'Column Name: DOLocationID'
+'Column Name: payment_type'
+'Column Name: fare_amount'
+'Column Name: extra'
+'Column Name: mta_tax'
+'Column Name: tip_amount'
+'Column Name: tolls_amount'
+'Column Name: improvement_surcharge'
+'Column Name: total_amount'
+'Column Name: congestion_surcharge'
+'Column Name: airport_fee'
+'Column Name: filename'
